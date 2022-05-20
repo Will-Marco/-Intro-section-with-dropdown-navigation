@@ -73,6 +73,7 @@ button {
 /* Left section */
 .left-box {
   width: 50%;
+  display: inline-block;
 }
 .left-box .headline {
   margin-top: 150px;
@@ -95,10 +96,16 @@ button {
   gap: 40px;
   list-style: none;
 }
-.left-box .left-box-list .left-box-brand {
-}
-/* Right section */
 
+/* Right section */
+.right-box {
+  width: 49%;
+  display: inline-block;
+}
+.right-box-img {
+  width: 90%;
+  transform: translateX(100px);
+}
 /* Footer */
 
 .footer {
