@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap");
+:root {
+  --almost-white: hsl(0, 0%, 98%);
+  --medium-gray: hsl(0, 0%, 41%);
+  --almost-black: hsl(0, 0%, 8%);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: var(--almost-white);
+}
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a,
+button {
+  font-family: "Epilogue", sans-serif;
+}
+.container {
+  margin: auto;
+  width: 1440px;
+}
+.btn {
+  padding: 12px 20px;
+  border-radius: 14px;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: transparent;
+  color: var(--almost-black);
+}
+.btn-border-none {
+  border: none;
+}
+
+/* Navbar */
+
+.navbar {
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar .navigation {
+  list-style: none;
+}
+.navbar .navigation .brand {
+  margin-right: 40px;
+  display: inline-block;
+}
+.navbar .navigation .brand a {
+  text-decoration: none;
+  font-size: 35px;
+  color: var(--almost-black);
+}
+.navbar .navigation li {
+  margin: 0 15px;
+  display: inline-block;
+}
+.navbar .navigation li a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--medium-gray);
+}
