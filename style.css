@@ -35,6 +35,11 @@ button {
   background-color: transparent;
   color: var(--almost-black);
 }
+.btn:active {
+  background-color: var(--almost-black);
+  color: var(--almost-white);
+  transition: 0.3s;
+}
 .btn-border-none {
   border: none;
 }
@@ -87,7 +92,13 @@ button {
 }
 .left-box .left-box-btn {
   padding: 18px 27px;
+  background-color: var(--almost-black);
+  color: var(--almost-white);
   font-size: 18px;
+}
+.left-box .left-box-btn:active {
+  background-color: transparent;
+  color: var(--almost-black);
 }
 .left-box .left-box-list {
   margin-top: 110px;
