@@ -19,6 +19,7 @@ h5,
 h6,
 p,
 span,
+li,
 a,
 button {
   font-family: "Epilogue", sans-serif;
@@ -49,6 +50,7 @@ button {
 .navbar {
   padding: 20px 40px;
   display: flex;
+  position: relative;
   justify-content: space-between;
   align-items: center;
 }
@@ -79,11 +81,31 @@ button {
   border-bottom-color: var(--almost-black);
   transition: 1s;
 }
+.navbar .dropdown-menu ul {
+  padding: 5px;
+  list-style: none;
+  border-radius: 10px;
+  box-shadow: 0 0 40px #aaa;
+}
+.navbar .dropdown-menu ul li {
+  padding: 5px 20px;
+  font-size: 14px;
+  color: var(--medium-gray);
+}
+.navbar .dropdown-menu ul li img {
+  margin-right: 15px;
+}
+.navbar .dropdown-features {
+  position: absolute;
+  top: 70px;
+  left: 120px;
+}
 
+/* main section */
 .main-section {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-bsetween;
 }
 
 /* Left section */
