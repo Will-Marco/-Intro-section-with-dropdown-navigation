@@ -35,6 +35,7 @@ button {
   font-weight: 600;
   background-color: transparent;
   color: var(--almost-black);
+  cursor: pointer;
 }
 .btn:active {
   background-color: var(--almost-black);
@@ -76,23 +77,26 @@ button {
   font-weight: 600;
   color: var(--medium-gray);
   border-bottom: 1px solid transparent;
+  cursor: pointer;
 }
 .navbar .navigation li a:hover {
   border-bottom-color: var(--almost-black);
   transition: 1s;
 }
-.navbar .dropdown-menu ul {
+.navbar .dropdown-menu {
+  height: 0;
   padding: 15px 5px;
+  display: none;
   list-style: none;
   border-radius: 10px;
   box-shadow: 0 0 40px #ccc;
 }
-.navbar .dropdown-menu ul li {
+.navbar .dropdown-menu li {
   padding: 5px 20px;
   font-size: 14px;
   color: var(--medium-gray);
 }
-.navbar .dropdown-menu ul li img {
+.navbar .dropdown-menu li img {
   margin-right: 15px;
 }
 .navbar .dropdown-features {
