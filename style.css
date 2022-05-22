@@ -82,10 +82,10 @@ button {
   transition: 1s;
 }
 .navbar .dropdown-menu ul {
-  padding: 5px;
+  padding: 15px 5px;
   list-style: none;
   border-radius: 10px;
-  box-shadow: 0 0 40px #aaa;
+  box-shadow: 0 0 40px #ccc;
 }
 .navbar .dropdown-menu ul li {
   padding: 5px 20px;
@@ -97,8 +97,13 @@ button {
 }
 .navbar .dropdown-features {
   position: absolute;
-  top: 70px;
+  top: 80px;
   left: 120px;
+}
+.navbar .dropdown-company {
+  position: absolute;
+  top: 80px;
+  left: 290px;
 }
 
 /* main section */
